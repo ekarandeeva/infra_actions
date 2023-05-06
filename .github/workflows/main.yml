@@ -71,4 +71,4 @@ jobs:
           sudo docker pull ekarandeeva/infra_actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 ekarandeeva/infra_actions
+          sudo docker run --rm -d -p 5001:5000 ekarandeeva/infra_actions
