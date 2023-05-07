@@ -63,7 +63,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST_2 }}
-        port: ${{ secrets. DEPLOY_PORT }}
+        port: ${{ secrets.DEPLOY_PORT }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
